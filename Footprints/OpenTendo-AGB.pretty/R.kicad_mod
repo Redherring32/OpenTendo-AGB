@@ -1,0 +1,100 @@
+(footprint "R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GBA R Button")
+	(property "Reference" "REF**"
+		(at 19.6 -37.66 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "be751075-ba42-4c6c-9256-1d7ffa6a043f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R"
+		(at 19.6 -23.76 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de031529-2619-4e9f-a7ea-0f5f84a5271f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1867e633-0ae8-4966-b119-5cecb082536f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83338655-9386-43d9-b23f-ceea4570a6bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 1.796106 1.796106)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ca10bf4-7974-4c17-9fe8-f3cdb224dcb4")
+	)
+	(pad "2" thru_hole circle
+		(at -7.06 1.22 180)
+		(size 2.380084 2.380084)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d248e84-98f9-4a22-801d-bd65d8bb80c0")
+	)
+	(pad "2" thru_hole circle
+		(at -4.4 -0.76 180)
+		(size 1.796106 1.796106)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f92cce9-d370-45f5-a345-af85d078d2af")
+	)
+	(pad "2" thru_hole circle
+		(at 1.9 2.74 180)
+		(size 2.380084 2.380084)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "169f024e-a333-47c2-939d-14f1c2bd5801")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx39-2LFS.wrl"
+		(offset
+			(xyz -4.5 1 0)
+		)
+		(scale
+			(xyz 1.1 1 1.1)
+		)
+		(rotate
+			(xyz -0 -0 10)
+		)
+	)
+)

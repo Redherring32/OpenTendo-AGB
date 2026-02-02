@@ -1,0 +1,136 @@
+(footprint "Coil"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GBA Transformer")
+	(property "Reference" " "
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f355fe33-b1c2-42ae-a1e8-ecabd83247b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Coil"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27717d6d-b607-40b8-b7cd-356b9ecb5c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be509f9b-b390-4a8a-85a7-d96dc9026f32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74f1bf78-cacb-4ded-b009-5e1a811e7b85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4df5cc95-59f1-416c-8724-7df356afa233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.01 6.01 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1b5aa557-8926-45f6-a0bf-b354fdb988ff")
+	)
+	(pad "2" smd rect
+		(at -1 6.005 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4751c61e-650f-4c76-a94a-66a23af1d6aa")
+	)
+	(pad "3" smd rect
+		(at 1.02 6 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "dd7fa6d1-1a14-4a23-a332-3b7478d0e5ab")
+	)
+	(pad "4" smd rect
+		(at 3.03 6 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e04148e1-4d38-4b1d-bffe-4d0246f5ae23")
+	)
+	(pad "5" smd rect
+		(at 3.02 -3.5 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3ea8f9ce-4fab-473a-b899-285980717471")
+	)
+	(pad "6" smd rect
+		(at 1 -3.5 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5357d852-27a4-47ad-aa72-c0665af2f5b5")
+	)
+	(pad "7" smd rect
+		(at -1.01 -3.5 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d7934173-da60-41fc-bf8d-cbddbcfc3154")
+	)
+	(pad "8" smd rect
+		(at -2.97 -3.5 270)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "89a66c76-9c0e-4dde-a934-cde5d8a84ac8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_TDK_SLF7032.step"
+		(offset
+			(xyz 0 -1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

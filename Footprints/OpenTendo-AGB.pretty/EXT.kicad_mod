@@ -1,0 +1,253 @@
+(footprint "EXT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GBA Link Port")
+	(property "Reference" " "
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f355fe33-b1c2-42ae-a1e8-ecabd83247b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EXT"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27717d6d-b607-40b8-b7cd-356b9ecb5c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bffe183d-e0c6-4c1d-b8ed-bfb936569fd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e2f382-0cc7-42b5-a0c5-70e1126c17d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4df5cc95-59f1-416c-8724-7df356afa233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.45 1.45)
+		(drill 1
+			(offset 0 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "a1db0740-e2e4-4c1a-a7cd-4ce2f5cdb492")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.45 1.45)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.45 1.85)
+				(offset 0 0.2)
+				(thermal_bridge_angle 45)
+				(zone_connect 2)
+			)
+		)
+	)
+	(pad "2" thru_hole circle
+		(at -2 -2 180)
+		(size 1.45 1.45)
+		(drill 1
+			(offset 0 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "65746a99-eebc-4aa8-9254-0b63e54cab8a")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.45 1.45)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.45 1.85)
+				(offset 0 0.2)
+				(thermal_bridge_angle 45)
+				(zone_connect 2)
+			)
+		)
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.45 1.45)
+		(drill 1
+			(offset 0 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "35817d30-b1e9-4dfb-b45c-5c9226fab058")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.45 1.45)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.45 1.85)
+				(offset 0 0.2)
+				(thermal_bridge_angle 45)
+				(zone_connect 2)
+			)
+		)
+	)
+	(pad "4" thru_hole circle
+		(at 0 -2 180)
+		(size 1.45 1.45)
+		(drill 1
+			(offset 0 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "24f84853-6f80-45c3-a9a8-e0b6f7d77962")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.45 1.45)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.45 1.85)
+				(offset 0 0.2)
+				(thermal_bridge_angle 45)
+				(zone_connect 2)
+			)
+		)
+	)
+	(pad "5" thru_hole circle
+		(at 2 0)
+		(size 1.45 1.45)
+		(drill 1
+			(offset 0 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "42264c4f-b577-4fc8-aae5-9053716ec81b")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.45 1.45)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.45 1.85)
+				(offset 0 0.2)
+				(thermal_bridge_angle 45)
+				(zone_connect 2)
+			)
+		)
+	)
+	(pad "6" thru_hole circle
+		(at 2 -2 180)
+		(size 1.45 1.45)
+		(drill 1
+			(offset 0 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "fa67a747-4318-4ecb-b759-f3baf4d83edd")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.45 1.45)
+				(zone_connect 2)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.45 1.85)
+				(offset 0 0.2)
+				(thermal_bridge_angle 45)
+				(zone_connect 2)
+			)
+		)
+	)
+	(pad "7" thru_hole oval
+		(at -5.1 -2.4)
+		(size 1.5 2.25)
+		(drill oval 1 1.75
+			(offset -0.02 -0.005)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "09003b72-fffa-4393-a786-03e43415ef6c")
+	)
+	(pad "8" thru_hole oval
+		(at 5.1 -2.4)
+		(size 1.5 2.25)
+		(drill oval 1 1.75
+			(offset -0.02 -0.005)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "d1c50f0f-ccb4-4af3-a561-1af6644147f0")
+	)
+	(embedded_fonts no)
+)

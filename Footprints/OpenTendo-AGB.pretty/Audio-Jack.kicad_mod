@@ -1,0 +1,356 @@
+(footprint "Audio-Jack"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GBA Audio Jack")
+	(property "Reference" " "
+		(at 34.91 25.57 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "db1ba902-a735-4637-b757-916ee01774e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Audio-Jack"
+		(at 34.91 27.07 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77bf9904-2a34-46a7-a712-c8a6e0481683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2e0baf2-67c6-4c0c-91b0-5eae887e77a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fcc5107-0d3c-4b60-9cf3-b4008cc853d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0.95 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "6cd8c1a6-2803-4aa1-b936-f52ae8cf0d0d")
+	)
+	(fp_circle
+		(center 1.77 4.69)
+		(end 2.72 4.69)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2ae8ab81-b3c8-4354-bea4-abcef699754e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.52 3.71 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "499c6f48-a649-4bf1-8ba3-a1dc06a3d04d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole custom
+		(at -2.42 7.9 20)
+		(size 1.6 1.6)
+		(drill oval 1 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.779942 0.978017) (xy 0.720775 1.147108) (xy 0.625465 1.298792) (xy 0.498792 1.425465) (xy 0.347106 1.520775)
+					(xy 0.178017 1.579942) (xy 0 1.6) (xy -0.178017 1.579942) (xy -0.347107 1.520775) (xy -0.498793 1.425465)
+					(xy -0.625465 1.298792) (xy -0.720775 1.147108) (xy -0.779942 0.978017) (xy -0.8 0.8) (xy -0.8 -0.8)
+					(xy -0.779942 -0.978016) (xy -0.720775 -1.147107) (xy -0.625465 -1.298792) (xy -0.498792 -1.425465)
+					(xy -0.347107 -1.520774) (xy -0.178017 -1.579942) (xy 0 -1.6) (xy 0.178017 -1.579942) (xy 0.347107 -1.520775)
+					(xy 0.498793 -1.425465) (xy 0.625465 -1.298792) (xy 0.720775 -1.147107) (xy 0.779942 -0.978017)
+					(xy 0.8 -0.8) (xy 0.8 0.8)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.581793 1.61862) (xy 1.484713 -2.354172) (xy -1.168951 -2.255849) (xy -1.066654 1.41023) (xy -1.006887 1.538401)
+					(xy -0.958209 1.609327) (xy -0.852287 1.669164) (xy -0.701936 1.723887) (xy -0.535348 1.763236)
+					(xy 1.581759 1.735667)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "fe2aeaea-3e8f-447d-ac15-faac8f8a885d")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.4 3)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.4 3)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "2" thru_hole custom
+		(at -4.6 -0.35 20)
+		(size 1.6 1.6)
+		(drill oval 1 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.779942 0.978017) (xy 0.720775 1.147108) (xy 0.625465 1.298792) (xy 0.498792 1.425465) (xy 0.347106 1.520775)
+					(xy 0.178017 1.579942) (xy 0 1.6) (xy -0.178017 1.579942) (xy -0.347107 1.520775) (xy -0.498793 1.425465)
+					(xy -0.625465 1.298792) (xy -0.720775 1.147108) (xy -0.779942 0.978017) (xy -0.8 0.8) (xy -0.8 -0.8)
+					(xy -0.779942 -0.978016) (xy -0.720775 -1.147107) (xy -0.625465 -1.298792) (xy -0.498792 -1.425465)
+					(xy -0.347107 -1.520774) (xy -0.178017 -1.579942) (xy 0 -1.6) (xy 0.178017 -1.579942) (xy 0.347107 -1.520775)
+					(xy 0.498793 -1.425465) (xy 0.625465 -1.298792) (xy 0.720775 -1.147107) (xy 0.779942 -0.978017)
+					(xy 0.8 -0.8) (xy 0.8 0.8)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.249122 1.707788) (xy 1.060609 1.705611) (xy 0.954858 -1.834024) (xy -1.050349 -1.733801)
+					(xy -0.999252 1.72209)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b5a3b9ab-e820-49e7-9997-27476ef1fd61")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.4 3)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.4 3)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "3" thru_hole custom
+		(at 1.03 -2.82 20)
+		(size 1.1 1.1)
+		(drill oval 1 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.544877 0.749892) (xy 0.504466 0.894122) (xy 0.426642 1.022098) (xy 0.317174 1.124334) (xy 0.184184 1.193244)
+					(xy 0.037533 1.223718) (xy -0.111901 1.213497) (xy -0.253036 1.163338) (xy -0.375404 1.07696) (xy -0.469931 0.960772)
+					(xy -0.529605 0.823389) (xy -0.55 0.675) (xy -0.55 -0.675001) (xy -0.544877 -0.749892) (xy -0.504466 -0.894122)
+					(xy -0.426642 -1.022098) (xy -0.317174 -1.124334) (xy -0.184184 -1.193244) (xy -0.037533 -1.223718)
+					(xy 0.111901 -1.213497) (xy 0.253036 -1.163338) (xy 0.375404 -1.076961) (xy 0.469931 -0.960772)
+					(xy 0.529605 -0.823389) (xy 0.55 -0.675) (xy 0.55 0.675001)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.240048 1.272627) (xy 0.60966 1.1903) (xy 0.534346 -1.263437) (xy -1.474281 -1.153818) (xy -1.436555 1.286239)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7e99e8cb-d311-4eb0-bf87-b53ad861e116")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.4 2.4)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.4 2.4)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "4" thru_hole custom
+		(at 4.99 4.49 20)
+		(size 1.6 1.6)
+		(drill oval 1 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.779942 0.978017) (xy 0.720775 1.147108) (xy 0.625465 1.298792) (xy 0.498792 1.425465) (xy 0.347106 1.520775)
+					(xy 0.178017 1.579942) (xy 0 1.6) (xy -0.178017 1.579942) (xy -0.347107 1.520775) (xy -0.498793 1.425465)
+					(xy -0.625465 1.298792) (xy -0.720775 1.147108) (xy -0.779942 0.978017) (xy -0.8 0.8) (xy -0.8 -0.8)
+					(xy -0.779942 -0.978016) (xy -0.720775 -1.147107) (xy -0.625465 -1.298792) (xy -0.498792 -1.425465)
+					(xy -0.347107 -1.520774) (xy -0.178017 -1.579942) (xy 0 -1.6) (xy 0.178017 -1.579942) (xy 0.347107 -1.520775)
+					(xy 0.498793 -1.425465) (xy 0.625465 -1.298792) (xy 0.720775 -1.147107) (xy 0.779942 -0.978017)
+					(xy 0.8 -0.8) (xy 0.8 0.8)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.55685 -2.184197) (xy -1.493005 1.499812) (xy -0.83947 1.663187) (xy -0.683142 1.730727)
+					(xy -0.559289 1.829015) (xy -0.318493 2.278478) (xy 1.555123 2.247419) (xy 1.447091 -2.250806)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7f1ffac6-a75a-46be-92f6-b69ead4cec67")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.4 3)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.4 3)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "5" thru_hole custom
+		(at 3.4 -3.74 20)
+		(size 1.1 1.1)
+		(drill oval 1 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.577911 1.23694) (xy 1.469997 1.194825) (xy 1.411749 -1.18885) (xy -0.596843 -1.196277)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.544877 0.749892) (xy 0.504466 0.894122) (xy 0.426642 1.022098) (xy 0.317174 1.124334) (xy 0.184184 1.193244)
+					(xy 0.037533 1.223718) (xy -0.111901 1.213497) (xy -0.253036 1.163338) (xy -0.375404 1.07696) (xy -0.469931 0.960772)
+					(xy -0.529605 0.823389) (xy -0.55 0.675) (xy -0.55 -0.675001) (xy -0.544877 -0.749892) (xy -0.504466 -0.894122)
+					(xy -0.426642 -1.022098) (xy -0.317174 -1.124334) (xy -0.184184 -1.193244) (xy -0.037533 -1.223718)
+					(xy 0.111901 -1.213497) (xy 0.253036 -1.163338) (xy 0.375404 -1.076961) (xy 0.469931 -0.960772)
+					(xy 0.529605 -0.823389) (xy 0.55 -0.675) (xy 0.55 0.675001)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b0593109-491d-43cd-a929-a5fad49c7667")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.4 2.4)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.4 2.4)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.step"
+		(offset
+			(xyz 1.5 -4.5 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -20)
+		)
+	)
+)

@@ -1,0 +1,142 @@
+(footprint "Crystal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GBA Crystal Oscillator")
+	(property "Reference" "REF**"
+		(at 0 -7.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da16e93d-80eb-4e88-ab78-5d75fff11075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9d32d515-b92a-459f-83b1-fb0848a3552a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61a7b561-2a07-4b6a-8b8c-7a7bd02282c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4d63e74-767a-4120-aaa3-e1e2f1f5b384")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0fa72989-e672-4f80-a138-b243f54c448a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 -4.25)
+		(size 1.5 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -2.87 0.59)
+				(end 2.88 0.96)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start -2.87 0.59)
+				(end -1.23 2.85)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start 1.24 0.59)
+				(end 2.88 2.85)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "71b35e13-5eec-40f1-9d58-33e3c05206f5")
+	)
+	(pad "2" smd custom
+		(at 0 4.27 180)
+		(size 1.5 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -2.87 0.59)
+				(end 2.88 0.96)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start -2.87 0.59)
+				(end -1.23 2.85)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start 1.24 0.59)
+				(end 2.88 2.85)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "25edf55f-7578-4f37-9e08-73b72018d4de")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_HC49-SD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,85 @@
+(footprint "Speaker"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "GBA Speaker Mounting")
+	(property "Reference" " "
+		(at 0 4.275 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f355fe33-b1c2-42ae-a1e8-ecabd83247b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Speaker"
+		(at 0 5.775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27717d6d-b607-40b8-b7cd-356b9ecb5c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7042714a-6204-4c34-a8a9-52b1809da518")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc75a239-68d4-43a9-9c2c-5855a9764250")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4df5cc95-59f1-416c-8724-7df356afa233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0.025 0)
+		(size 1.58808 1.58808)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1db0740-e2e4-4c1a-a7cd-4ce2f5cdb492")
+	)
+	(pad "2" thru_hole circle
+		(at 0.005 3.51)
+		(size 1.58808 1.58808)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "988235b3-b482-415d-b62d-26a351d10d46")
+	)
+	(embedded_fonts no)
+)
