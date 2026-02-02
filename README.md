@@ -8,6 +8,18 @@ This is an open source recreation of the AGB-CPU-01 board. This was a joint effo
 
 <img width="2293" height="1550" alt="image" src="https://github.com/user-attachments/assets/4c066ec1-ab9d-4520-8b2e-6d57b3205730" />
 
+## File Structure
+
+**Board Files**: contains the schematics and PCB files for KiCad 9.0
+
+**Footprints/OpenTendo-AGB.pretty**: component footprints for KiCad 9.0
+
+**Symbols**: component symbols for KiCad 9.0
+
+**Bill_of_Materials.csv**: a list of components and component values for each part on the board
+
+**Gerbers.zip**: files used to order circuit boards from manufacturers (JLCPCB, PCBway, etc.)
+
 ## Board Characteristics and Order Information
 
 The zipped folder contains all the gerber files for this board. The following options **must** be chosen when ordering boards for yourself.
