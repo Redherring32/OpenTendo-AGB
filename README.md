@@ -1,4 +1,4 @@
-# OpenTendo Game Boy Advance (OAGB)
+# OpenTendo Game Boy Advance (OpenGBA)
 
 This is an open source recreation of the AGB-CPU-01 board. This was a joint effort between Redherring32 and Bucket Mouse (Mousebitelabs) - initial board scans, copper tracing, and footprint generation were done by Redherring32; schematic and symbol generation, PCB copper cleanup, and silkscreen were done by Bucket Mouse. This is a close to 1:1 recreation of the original AGB-CPU-01 circuit board - some liberties were taken here and there to ensure ease of manufacturability (namely, 6 mil spacing) and to improve aesthetics (most vias are *tented* rather than untented).
 
