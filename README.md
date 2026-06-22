@@ -2,8 +2,6 @@
 
 This is an open source recreation of the AGB-CPU-01 board. This was a joint effort between Redherring32 and Bucket Mouse (Mousebitelabs) - initial board scans, copper tracing, and footprint generation were done by Redherring32; schematic and symbol generation, PCB copper cleanup, and silkscreen were done by Bucket Mouse. This is a close to 1:1 recreation of the original AGB-CPU-01 circuit board - some liberties were taken here and there to ensure ease of manufacturability (namely, 6 mil spacing) and to improve aesthetics (most vias are *tented* rather than untented).
 
-**Please note:** At the time of writing, the circuit boards have not been ordered or assembled yet.
-
 <img width="2293" height="1550" alt="image" src="https://github.com/user-attachments/assets/68cd47ea-48f8-44d5-8787-8a9ff2c09a20" />
 
 <img width="2293" height="1550" alt="image" src="https://github.com/user-attachments/assets/4c066ec1-ab9d-4520-8b2e-6d57b3205730" />
@@ -16,7 +14,7 @@ This is an open source recreation of the AGB-CPU-01 board. This was a joint effo
 
 **Symbols**: component symbols for KiCad 9.0
 
-**Bill_of_Materials.csv**: a list of components and component values for each part on the board
+**Bill_of_Materials.csv**: a list of components and component values for each part on the board (see [this site](https://docs.google.com/spreadsheets/d/17RfgOaR-P8M0cC5BojwuY52GbZUefLFm82To7ja963o/edit?gid=1605207223#gid=1605207223) for some alternatives)
 
 **Gerbers.zip**: files used to order circuit boards from manufacturers (JLCPCB, PCBway, etc.)
 
