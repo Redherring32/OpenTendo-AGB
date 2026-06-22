@@ -22,7 +22,7 @@ This is an open source recreation of the AGB-CPU-01 board. This was a joint effo
 
 The zipped folder contains all the gerber files for this board. The following options **must** be chosen when ordering boards for yourself.
 
-- Thickness: 1.2mm
+- Thickness: 1.0mm
 - Surface Finish: ENIG
 
 ## License
